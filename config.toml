@@ -1,3 +1,37 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "hugo-sugoi"
+baseURL = "https://hanseidfc.github.io"
+languageCode = "ko-kr"
+title = "Digital Forensics Club"
+summaryLength = 20
+paginate = 5
+# Google Analytics ID, Uncomment below line to enable
+# googleAnalytics = "UA-123-45"
+
+# Enter your disqus Shortname and uncomment below line to enable
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+favicon = "images/favicon.png"
+herotitle = "한세 디지털 포렌식 동아리"
+herolink = "https://hanseidfc.github.io/promotion_site"
+herolinktext = "Join us"
+contact = "Send me a message and I will get back as soon as possible."
+
+[hero]
+
+[menu]
+    [[menu.nav]]
+        name    = "about"
+        pre = "<i class='fas fa-home'></i>"
+        url     = "about"
+        weight  = -1
+    [[menu.nav]]
+        name    = "blog"
+        pre = "<i class='fas fa-list'></i>"
+        url     = "post"
+        weight  = -2
+    [[menu.nav]]
+        name    = "contact"
+        pre = "<i class='fas fa-envelope'></i>"
+        url     = "contact"
+        weight  = -3
