@@ -1,3 +1,14 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://hanseiDFC.github.io/'
+languageCode = 'ko-kr'
+title = 'hanseiDFC'
+theme = "m10c"
+
+[params]
+  author = 'hanseiDFC'
+  description = '가치를 공유하고 문화를 도구로써 함께 발전하길 추구하는 개발자들의 소중한 공간'
+  avatar = '/avatar.png'
+
+[[params.social]]
+  icon = "github"
+  name = "Github"
+  url = "https://github.com/hanseidfc"
